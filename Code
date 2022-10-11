@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Coffee Shop</title>
+</head>
+<body>
+
+
+
+	<!-- Login Page-->
+		
+	<h3>Login</h3>
+	<form >
+		<input type="email" placeholder="Email id"> <br>
+		<input type="password" placeholder="Password"><br>
+		<input type="Submit">
+	</form>
+
+
+
+	<!-- Home Page -->
+	<h1>Coffee Shop</h1>
+	<h3>Login</h3>
+	<h3> Profile</h3>
+	<h3>Feedback</h3>
+	<hr>
+	<img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80"  width="400px" height="400px">
+	<form>
+		<input type="button" value="Order">
+	</form>
+	
+	<footer>
+		<p> copyright &copy; photography 2022<br>Made with &hearts; in India</p>
+	</footer>
+
+
+
+
+
+	<!-- Order Page -->
+	<h1>Coffee List</h1> <hr>
+	<table>
+		<tr>
+			<th>Coffee</th>
+			<th>Info</th>
+		</tr>
+		<tbody>
+			<tr>
+		<td>
+	        <img src="https://images.unsplash.com/photo-1602666785995-294f201cb95b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29mZmVlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="400px" height="400px">
+	    </td>
+	    <td>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	     <input type="button" value="Select">
+	    </td>
+        </tr>
+
+        <tr>
+	    <td>
+	    	<img src="https://images.unsplash.com/photo-1608534516253-3508c04f773d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="400px" height="400px">
+	    </td>
+	    <td>
+	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    	<input type="button" value="Select">
+	    </td>
+        </tr>
+        <tr>
+        	<td>
+        		<img src="https://images.unsplash.com/photo-1608363087711-9280f549a29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29mZmVlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="400px" height="400px">
+        	</td>
+        	<td>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        		<input type="button" value="Select">
+        	</td>
+        </tr>
+        tr>
+        	<td>
+        		<img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxhdHRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="400px" height="400px">
+        	</td>
+        	<td>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        		<input type="button" value="Select">
+        	</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
