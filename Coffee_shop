@@ -82,20 +82,20 @@ ul{
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="image1.jpg" class="d-block w-100" style="height: 500px;">
+      <img src="https://images.unsplash.com/photo-1521495084171-3ad639e3d525?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzc5ODgyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
         <h5>“What do you want?"</h5>
         <p>"Just coffee. Black - like my soul.”</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="image2.jpg" class="d-block w-100" style="height: 500px;">
+      <img src="https://images.unsplash.com/photo-1520722475117-1767090fe4b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzc5ODgyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
         <h5>“I'd rather take coffee than compliments just now.”</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="image3.jpg" class="d-block w-100" style="height: 500px;">
+      <img src="https://images.unsplash.com/photo-1608363087711-9280f549a29e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29mZmVlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
         <h5>“I don't really like coffee,</h5>
         <p> she said, but I don't really like it when my head hits my desk when I fall asleep either. ”</p>
@@ -211,16 +211,16 @@ ul{
   <footer>
     <div class="row">
       <div class="col-sm-4">
-        <img src="Logo.jpg" class="img-responsive img-fluid">
+        <img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-hand-drawn-coffee-cup-png-image_5569201.jpg" class="img-responsive img-fluid" style="height: 200px;margin-left: 20px;">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4" style="padding-top: 20px;">
         <h5>About</h5>
         <hr style="width: 50%; border: 2px solid #FFFFFF;">
           <a href="#" class="about-link"> About</a><br>
           <a href="#" class="about-link"> Privacy policy</a><br>
           <a href="#" class="about-link"> Terms and conditions</a>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4" style="padding-top: 20px;">
         <h5>Contact</h5>
         <hr style="width: 50%; border: 2px solid #FFFFFF;">
         <p>Phone no : 1234567890</p>
