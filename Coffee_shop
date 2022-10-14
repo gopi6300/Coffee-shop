@@ -1,0 +1,237 @@
+/*CSS Code*/
+.nav-link{
+	color: white;
+}
+.navbar-brand{
+	color: white;
+}
+.section-info{
+	padding-top: 80px;
+}
+footer{
+	background-color: black;
+	margin-top: 20px;
+	padding: 20px;
+	color: #FFFFFF;
+}
+
+.about-link{
+	color: #FFFFFF;
+}
+.about-link: hover{
+	color: #FFFFFF;
+}
+ul{
+	list-style: none;
+}
+
+
+<!--html code-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffee website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Coffee_shop.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/128/2935/2935307.png" class="img-responsive img-fluid" style="height: 50px; width: 50px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Login </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login_page.html">Sign in</a></li>
+            <li><a class="dropdown-item" href="login_page.html">Sign up</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Profile</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!--Corousel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image1.jpg" class="d-block w-100" style="height: 500px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>“What do you want?"</h5>
+        <p>"Just coffee. Black - like my soul.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image2.jpg" class="d-block w-100" style="height: 500px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>“I'd rather take coffee than compliments just now.”</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image3.jpg" class="d-block w-100" style="height: 500px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>“I don't really like coffee,</h5>
+        <p> she said, but I don't really like it when my head hits my desk when I fall asleep either. ”</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ <br>
+
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button"><a href="Coffee.html" style="color: black;">Order</a></button>
+</div>
+  <br>
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/128/1014/1014393.png">
+        <br>
+        <div>
+        <h6 style="padding-top: 10px;">"Science may never come up with a better office communication system than the coffee break."
+          <br>
+          <p style="float: right;">-Earl Wilson</p>
+        </h6>
+      </div>
+      </div>
+      <div class="col-sm-6 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/128/1079/1079108.png">
+        <div>
+        <h6 style="padding-top: 10px;">"like instant gratification. It’s like instant coffee, only it won’t keep you up at night.""
+          <br>
+          <p style="float: right;">-Jarod Kintz</p>
+        </h6>
+      </div>
+    </div>
+      </div>
+      
+    <br><br>
+    <div class="row">
+      <div class="col-sm-6 text-center">
+        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcHVjY2lub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive img-fluid" style="height: 350px; width: 350px;">
+      </div>
+      <div class="col-sm-6">
+        <p class="section-info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="section-info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="col-sm-6 text-center">
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxhdHRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive img-fluid" style="height: 350px; width: 350px;">
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-6 text-center">
+        <img src="https://images.unsplash.com/photo-1503481766315-7a586b20f66d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Njl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive img-fluid" style="height: 350px; width: 350px;">
+      </div>
+      <div class="col-sm-6">
+        <p class="section-info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="section-info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="col-sm-6  text-center">
+        <img src="https://images.unsplash.com/photo-1600447196220-eaca91b66c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTA4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive img-fluid" style="height: 350px; width: 350px;">
+      </div>
+    </div>
+  </section>
+<br>
+
+<!--footer-->
+  <footer>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="Logo.jpg" class="img-responsive img-fluid">
+      </div>
+      <div class="col-sm-4">
+        <h5>About</h5>
+        <hr style="width: 50%; border: 2px solid #FFFFFF;">
+          <a href="#" class="about-link"> About</a><br>
+          <a href="#" class="about-link"> Privacy policy</a><br>
+          <a href="#" class="about-link"> Terms and conditions</a>
+      </div>
+      <div class="col-sm-4">
+        <h5>Contact</h5>
+        <hr style="width: 50%; border: 2px solid #FFFFFF;">
+        <p>Phone no : 1234567890</p>
+        <p>Email-id : abc@gmail.com</p>
+      </div>
+    </div>
+    <div class="text-center">
+      <p>Copyright &copy; Coffee shop 2022. All rights reserved</p>
+      <p>Made with &hearts; in India</p>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
