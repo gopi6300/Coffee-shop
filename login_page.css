@@ -1,0 +1,44 @@
+
+.row{
+
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.btn{
+    border-radius: 25px;
+    width: 60%;
+    margin-top:2%;
+}
+
+
+
+form{
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.abc{
+    padding: 2%;
+    margin: auto;
+}
+
+.form-control{
+    width: 80%;
+    border-radius: 25px;
+}
+
+.in{
+    color: #495057;
+    margin-right: 70%;
+}
+
+
+.my{
+    background-color:#bcc2be;
+    border:none; 
+}
+
+  

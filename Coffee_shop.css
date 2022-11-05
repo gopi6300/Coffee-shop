@@ -1,0 +1,25 @@
+.nav-link{
+	color: white;
+}
+.navbar-brand{
+	color: white;
+}
+.section-info{
+	padding-top: 80px;
+}
+footer{
+	background-color: #000000;
+	margin-top: 20px;
+	padding: 20px;
+	color: #FFFFFF;
+}
+
+.about-link{
+	color: #FFFFFF;
+}
+.about-link: hover{
+	color: #FFFFFF;
+}
+ul{
+	list-style: none;
+}
